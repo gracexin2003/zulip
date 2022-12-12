@@ -1,4 +1,4 @@
-<div id="compose-content">
+<div id="compose-content" class="no-print">
     {{!-- scroll to bottom button is not part of compose but
     helps us align it at various screens sizes with
     minimal css and no JS. We keep it `position: absolute` to prevent
@@ -45,7 +45,7 @@
             {{/unless}}
         </div>
     </div>
-    <div class="message_comp">
+    <div class="message_comp no-print">
         <div id="compose_banners"></div>
         <div class="alert" id="compose-send-status">
             <span class="compose-send-status-close">&times;</span>
