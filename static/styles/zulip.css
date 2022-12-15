@@ -3366,7 +3366,7 @@ textarea.invitee_emails {
         content: none !important;
     }
 
-    /* this is the one that actually makes the header stay */
+    /* this is the one that makes the header stay on top and messages not overlap with it */
     .header {
         position: relative;
         z-index: 102; /* Needs to be higher than .alert-bar-container */
